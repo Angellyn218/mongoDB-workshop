@@ -1,0 +1,6 @@
+version: "0.5"
+processes:
+  express:
+    command: npm run start
+  mongodb:
+    command: ferretdb

@@ -1,0 +1,22 @@
+{
+  "packages": [
+    "nodejs@21",
+    "ferretdb@1.20",
+    "httpie@latest",
+    "mongosh@2"
+  ],
+  "env": {
+    "FERRETDB_TELEMETRY":  "disabled",
+    "FERRETDB_HANDLER":    "sqlite",
+    "FERRETDB_STATE_DIR":  "$PWD/.devbox/virtenv/ferretdb/",
+    "FERRETDB_SQLITE_URL": "file:$PWD/.devbox/virtenv/ferretdb/",
+	"MONGODB_URI": "mongodb://localhost:27017/inventoryDB",
+  },
+  "shell": {
+    "init_hook": [
+      "npm i",
+      "export PATH=\"$PATH:$PWD/node_modules/.bin/\"",
+      "mkdir -p $FERRETDB_STATE_DIR"
+    ]
+  }
+}
