@@ -1,0 +1,85 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "ferretdb@1.20": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#ferretdb",
+      "source": "devbox-search",
+      "version": "1.20.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/ml2y0p17fsvf3wqm88paza3m9a0686al-ferretdb-1.20.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/v2lbfgdhdv13ky78p8d0xr5ax7cjr1rc-ferretdb-1.20.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/li93cmdarb0qsb6x9z2r5khvbchny1dm-ferretdb-1.20.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/c2szzz00g9r4d62ba61bb4xlzqfm52w3-ferretdb-1.20.1"
+        }
+      }
+    },
+    "httpie@latest": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#httpie",
+      "source": "devbox-search",
+      "version": "3.2.2",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/c5livh31znnci0jkhhlnb4wf055pcp2v-python3.11-httpie-3.2.2"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/b2rccbraymnfvplp992aq12la3zp1li1-python3.11-httpie-3.2.2"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/bw98vx6civyx1k43q3436i1hjqh68xpv-python3.11-httpie-3.2.2"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/y1ip5sxddc4873fpq252fdrqr6bypwd5-python3.11-httpie-3.2.2"
+        }
+      }
+    },
+    "mongosh@2": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#mongosh",
+      "source": "devbox-search",
+      "version": "2.2.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/gygss2dx5s1pfnhnrpj51hlp53mim0mb-mongosh-2.2.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/cax0gwckw9vppadagi9mpamvwydyhmp1-mongosh-2.2.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/1zp8k48g2ix2gcd58bzkydzb38ywvvb3-mongosh-2.2.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/3dvr0yzhi0a8p0y50ifwgzki90kfh34m-mongosh-2.2.1"
+        }
+      }
+    },
+    "nodejs@21": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#nodejs_21",
+      "source": "devbox-search",
+      "version": "21.7.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/x1d9im8iy3q74jx1ij2k3pjsfgvqihn1-nodejs-21.7.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/b7cq5jvw90bl4ls3nssrj5xwh3d6vldf-nodejs-21.7.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/klvzykcgrhlbpkgdaw5329w2l09wp4vd-nodejs-21.7.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/7fd8ac3wm7gq8k5qd6l15hqx13bm4mr6-nodejs-21.7.1"
+        }
+      }
+    }
+  }
+}
