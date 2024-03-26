@@ -55,9 +55,9 @@ app.get('/read/:id', (req, res) => {
 
 // TODO: Add Delete route that deletes by id provided in the request body
 
-app.delete('/delete', (req, res) => {
+app.delete('/delete/:id', (req, res) => {
   db.collection('bookCollection').deleteOne(
-    {_id: ObjectId(req.body._id)}, 
+    {_id: ObjectId(req.params.id)}, 
     (err, results) => {
       if (err) throw err;
       res.json(results);
